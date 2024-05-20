@@ -1,10 +1,9 @@
 #include <iostream>
 using namespace std;
 int main() {
-    setlocale (LC_ALL,"RU");
-    cout << "Hello, World!" << endl;
-    cout << "Мой номер варианта:6"<<endl;
-    cout << "Мое имя Анатолий";
-    cout << "Моя фамилия Колотовкин";
+    setlocale(LC_ALL, "RU");
+    cout << "My variant:6"<<endl;
+    cout << "My name is Anatoly" << endl;
+    cout << "My surname is Kolotovkin" << endl;
     return 0;
 }
