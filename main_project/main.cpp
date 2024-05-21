@@ -16,7 +16,7 @@ bool isDirectionAllowed(const std::string& direction) {
 }
 
 // Функция для фильтрации ветра по направлению
-std::vector<Wind> filterByDirection(const std::vector<Wind>& winds) {
+std::vector<Wind> filterByDirection(const std::vector<Wind>& winds ) {
     std::vector<Wind> filtered;
     for (const auto& wind : winds) {
         if (isDirectionAllowed(wind.direction)) {
@@ -62,7 +62,7 @@ void printWind(const Wind& wind) {
 }
 
 int main() {
-    // Пример данных о ветре
+    
     std::vector<Wind> winds = {
         {1, 1, "North", 3.5},
         {2, 2, "NorthWest", 4.2},
