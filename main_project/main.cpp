@@ -1,6 +1,7 @@
 #include <iostream>
 #include <vector>
 #include <algorithm>
+#include "processing.h"
 
 // Структура для хранения информации о ветре
 struct Wind {
